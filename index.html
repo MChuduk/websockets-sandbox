@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Websockets Sandbox</title>
+    <script src="ws.js" defer></script>
+</head>
+    <body>
+        <h3 id="ws-status">test</h3>
+        <div style="display: flex; flex-direction: column; width: 200px;">
+            <label for="chat-area"></label>
+            <textarea id="chat-area" cols="50" rows="20" readonly></textarea>
+            <label for="text-input"></label>
+            <input type="text" id="text-input"/>
+            <button onclick="onSendButtonClick()">send</button>
+        </div>
+    </body>
+</html>
